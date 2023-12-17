@@ -75,7 +75,7 @@ body,button,input {
 }
 .navlist {
     display: flex;
-    column-gap: 2.5rem;
+    column-gap: 2rem;
 }
 .nav_item {
 
@@ -362,5 +362,11 @@ h3.featured-title {
     .story-link-container {
         margin: auto;
         padding: auto;
+    }
+    .active_link {
+        display: none;
+    }
+    .header {
+        font-size: 10px;
     }
 }
