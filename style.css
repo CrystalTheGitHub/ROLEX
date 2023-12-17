@@ -338,7 +338,7 @@ h3.featured-title {
 @media screen and (max-width: 1024px) {
 
     .home_img-bg {
-        display: none;
+        width: 100%;
     }
     .nav_btns {
         display: none;
@@ -363,10 +363,27 @@ h3.featured-title {
         margin: auto;
         padding: auto;
     }
-    .active_link {
-        display: none;
+    .nav_link {
+        font-size: 15px;
     }
     .header {
-        font-size: 10px;
+        font-size: 15px;
+    }
+    .home_social-link {
+        color: white;
+        
+    }
+    main {
+        width: 90%;
+        margin: auto;
+    }
+    .home_container {
+        grid-template-columns: 1fr;
+    }
+    .home_social {
+        z-index: 4;
+        top: inherit;
+        left: -5rem;
+        bottom: 530px;
     }
 }
