@@ -360,6 +360,7 @@ h3.featured-title {
         padding: 1rem 1rem;
     }
     .story-link-container {
-        margin-left: 345px;
+        margin: auto;
+        padding: auto;
     }
 }
